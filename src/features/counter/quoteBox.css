@@ -1,0 +1,30 @@
+#quote-box {
+    border: solid black 1px;
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-box {
+    width: 80%;
+    border: 2px red solid;
+    margin: auto 0;
+    height: 50%;
+}
+
+#text {
+    background-color: pink;
+    text-align: center;
+    height: fit-content;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#author {
+    background-color: aquamarine;
+    text-align: end;
+    margin-right: 2rem;
+    align-self: end;
+}
