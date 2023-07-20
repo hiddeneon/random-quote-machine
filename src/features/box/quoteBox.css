@@ -1,17 +1,21 @@
 #quote-box {
     border: solid black 1px;
-    width: 50vw;
-    height: 50vh;
+    width: 60vw;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 10px;
 }
 
 .main-box {
     width: 80%;
     border: 2px red solid;
     margin: auto 0;
-    height: 50%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #text {
@@ -19,7 +23,7 @@
     text-align: center;
     height: fit-content;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 #author {
@@ -27,4 +31,9 @@
     text-align: end;
     margin-right: 2rem;
     align-self: end;
+    justify-self: end;
+}
+
+#new-quote {
+    margin-bottom: 3vh;
 }

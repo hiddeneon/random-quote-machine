@@ -7,7 +7,7 @@ export function QuoteBox() {
 
   const dispatch = useDispatch();
   const author = useSelector((state) => state.generate.author);
-  const quote = useSelector((state) => state.generate.text)
+  const quote = useSelector((state) => state.generate.text);
 
   return (
     <div id="quote-box">
