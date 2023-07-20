@@ -20,9 +20,10 @@ export function QuoteBox() {
           <span>--- {author} ---</span>
         </div>
       </div>
+      
       <div className='container-fluid'>
         <div className="row">
-          <a href="http://twitter.com/intent/tweet" className='col-sm' id="tweet-quote" target='blank'><img src={twitterLogo} width="50" alt="twitter-logo" /><span>Поделиться цитатой</span></a>
+          <a href={"https://twitter.com/intent/tweet?text=" + quote + " @ " + author} className="col-sm" id="tweet-quote" target='blank'><img src={twitterLogo} width="50" alt="twitter-logo" /><span>Share Quote</span></a>
           <button
           id="new-quote"
           className='col-sm'
