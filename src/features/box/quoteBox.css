@@ -58,7 +58,14 @@
     border-radius: 8px;
     background-color: black;
     color: white;
-    border: none;
+    border: solid black 4px;
+    transition: .2s;
+}
+
+#new-quote:hover {
+    border: solid black 4px;
+    background-color: white;
+    color: black;
 }
 
 #tweet-quote {
