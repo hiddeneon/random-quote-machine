@@ -1,4 +1,5 @@
 import React from 'react';
+import twitterLogo from '../../square-twitter.svg'
 import { useDispatch, useSelector } from 'react-redux';
 import { generate } from './quoteSlice';
 import './quoteBox.css';
@@ -16,13 +17,19 @@ export function QuoteBox() {
           <p>{quote}</p>
         </div>
         <div id="author">
-          <p>{author}</p>
+          <span>--- {author} ---</span>
         </div>
       </div>
-      <button
-      id="new-quote"
-      onClick={() => dispatch(generate())}
-      >New Quote</button>
+      <div className='container-fluid'>
+        <div className="row">
+          <a href="http://twitter.com/intent/tweet" className='col-sm' id="tweet-quote" target='blank'><img src={twitterLogo} width="50" alt="twitter-logo" /><span>Поделиться цитатой</span></a>
+          <button
+          id="new-quote"
+          className='col-sm'
+          onClick={() => dispatch(generate())}
+          >New Quote</button>
+        </div>
+      </div>
     </div>
   );
 }

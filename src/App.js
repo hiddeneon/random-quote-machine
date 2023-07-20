@@ -1,5 +1,5 @@
 import React from 'react';
-import { QuoteBox } from './features/counter/QuoteBox';
+import { QuoteBox } from './features/box/QuoteBox';
 import './App.css';
 
 function App() {

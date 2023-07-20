@@ -1,39 +1,65 @@
 #quote-box {
-    border: solid black 1px;
     width: 60vw;
     height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
+    border: solid black 1px;
 }
 
 .main-box {
-    width: 80%;
-    border: 2px red solid;
+    width: 90%;
     margin: auto 0;
     height: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 10px;
 }
 
 #text {
-    background-color: pink;
     text-align: center;
     height: fit-content;
     display: flex;
     flex-wrap: wrap;
+    font-size: 24px;
 }
 
 #author {
-    background-color: aquamarine;
     text-align: end;
     margin-right: 2rem;
+    margin-top: 1rem;
     align-self: end;
     justify-self: end;
+    letter-spacing: 2px;
+    font-size: 17px;
+    cursor: default;
+}
+
+/* HANDLING BUTTONS */
+.container-fluid {
+    width: 100px;
+}
+
+.row {
+    padding: 0 2rem 1rem 2rem;
 }
 
 #new-quote {
-    margin-bottom: 3vh;
+    width: fit-content;
+    height: 50px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+}
+
+#tweet-quote {
+    width: fit-content;
+    text-decoration: none;
+}
+
+#tweet-quote span {
+    margin-left: 1.5rem;
+    color: black;
 }
