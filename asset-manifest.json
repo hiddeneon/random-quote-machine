@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.190a81fb.css",
-    "main.js": "/static/js/main.629670e2.js",
-    "static/js/787.e4ae0a49.chunk.js": "/static/js/787.e4ae0a49.chunk.js",
-    "static/media/square-twitter.svg": "/static/media/square-twitter.bd5b7440fadb2193e9190ff4f172dfee.svg",
-    "index.html": "/index.html",
-    "main.190a81fb.css.map": "/static/css/main.190a81fb.css.map",
-    "main.629670e2.js.map": "/static/js/main.629670e2.js.map",
-    "787.e4ae0a49.chunk.js.map": "/static/js/787.e4ae0a49.chunk.js.map"
+    "main.css": "/random-quote-machine/static/css/main.190a81fb.css",
+    "main.js": "/random-quote-machine/static/js/main.902e8fc7.js",
+    "static/js/787.e4ae0a49.chunk.js": "/random-quote-machine/static/js/787.e4ae0a49.chunk.js",
+    "index.html": "/random-quote-machine/index.html",
+    "static/media/square-twitter.svg": "/random-quote-machine/static/media/square-twitter.bd5b7440fadb2193e9190ff4f172dfee.svg",
+    "main.190a81fb.css.map": "/random-quote-machine/static/css/main.190a81fb.css.map",
+    "main.902e8fc7.js.map": "/random-quote-machine/static/js/main.902e8fc7.js.map",
+    "787.e4ae0a49.chunk.js.map": "/random-quote-machine/static/js/787.e4ae0a49.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.190a81fb.css",
-    "static/js/main.629670e2.js"
+    "static/js/main.902e8fc7.js"
   ]
 }
